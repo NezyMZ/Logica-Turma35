@@ -5,13 +5,9 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro contador = 0
+		
 		cadeia nomes[5]
 		real altura[5]
-
-		faca{
-			
-			contador += 1
 			
 			para(inteiro i=0; i < 5; i++)
 			{	
@@ -41,8 +37,6 @@ programa
 				Util.aguarde(1000)
 				
 			}
-			
-		}enquanto(contador > 4)
 
 				limpa()
 				
@@ -57,9 +51,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 306; 
+ * @POSICAO-CURSOR = 161; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {contador, 8, 10, 8}-{nomes, 9, 9, 5}-{altura, 10, 7, 6}-{i, 16, 16, 1}-{i, 49, 17, 1};
+ * @SIMBOLOS-INSPECIONADOS = {nomes, 9, 9, 5}-{altura, 10, 7, 6}-{i, 12, 16, 1}-{i, 43, 17, 1};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
